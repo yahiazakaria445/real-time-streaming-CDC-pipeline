@@ -2,7 +2,7 @@
 
 This project demonstrates a real-time Change Data Capture (CDC) streaming pipeline that captures changes from a MySQL source database using Debezium, processes them through Apache Kafka, and kafka sink the data into Snowflake using the Kafka Snowflake Connector.
 
-![workflow](images\workflow.png)
+![workflow](images/workflow.png)
 ---
 
 - Set up a real-time Change Data Capture (CDC) pipeline using Apache Kafka Connect as the integration layer. 
@@ -15,11 +15,11 @@ This project demonstrates a real-time Change Data Capture (CDC) streaming pipeli
 ---
 
 # mysql source database
-![mysql](images\DB.png)
+![mysql](images/DB.png)
 
 # kafka topics
-![topics](images\topics.png)
+![topics](images/topics.png)
 # Snowflake data warehouse
-![snowflake](images\DWH.png)
+![snowflake](images/DWH.png)
 
 
